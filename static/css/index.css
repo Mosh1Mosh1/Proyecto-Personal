@@ -14,11 +14,18 @@ html,body{
     display: inline-grid;
     grid-template-columns: 310px 310px 310px 310px 310px 310px;
     grid-template-rows: auto auto auto auto auto auto;
+    
 }
 
 .grid-container > div{
     text-align: center;
+    border: 2px solid black;
 }
+
+.grid-container .grid-item7 .contenido > div{
+    border: 2px solid black;
+}
+
 
 .grid-container .grid-item12{
     grid-column: 1 /7;
@@ -26,6 +33,26 @@ html,body{
 
 .grid-container .grid-item7{
     grid-column: 2 / 6;
+}
+
+.grid-container .grid-item7-1{
+    grid-column: 2 / 6;
+
+}
+
+.grid-container .grid-item7-2{
+    grid-column: 2 / 6;
+
+}
+
+.grid-container .grid-item7-3{
+    grid-column: 2 / 6;
+
+}
+
+.grid-container .grid-item7-4{
+    grid-column: 2 / 6;
+
 }
 
 .grid-container .grid-item8{
